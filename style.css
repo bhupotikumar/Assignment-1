@@ -17,6 +17,10 @@
   font-style: normal;
 }
 
+body {
+    margin: 0 auto;
+}
+
 
 /* shared style */
 .btn {
@@ -55,6 +59,15 @@
     font-weight: 500;
     color: #0D1321;
     opacity: 70%;
+}
+.html-color {
+    background-color: #ff4b1e0e;
+}
+.css-color {
+    background-color: #004de80e;
+}
+.java-color {
+    background-color: #ffdd0010;
 }
 
 
@@ -173,4 +186,59 @@
     align-items: center;
     border: 1px solid #abaeb4;
     border-radius: 10px;
+}
+
+
+
+/* My Target styles */
+.target {
+    margin: 0 auto;
+    width: 1140px;
+}
+.current-target {
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+}
+.current-target-wraper {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.target-item {
+    width: 284px;
+    height: 220px;
+    padding: 40px;
+    text-align: left;
+    border-radius: 15px;
+}
+.item-title {
+    font-weight: bolder;
+}
+.target-item a, .next-target-item a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+
+.next-target {
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+
+}
+.next-target-item {
+    margin: 25px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: left;
+    border: 1px solid #0d132133;
+    border-radius: 15px;
 }
