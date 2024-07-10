@@ -4,11 +4,9 @@
 }
 
 
-
+/* font import */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
 
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -80,7 +78,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 800px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFFFF;
 }
 .header h2{
     font-size: 30px;
@@ -130,7 +128,10 @@ body {
     padding: 20px;
     border: none;
     border-radius: 8px;
-    background-color: #0D1321;
+    background-color: #0d1321c4;
+}
+.contact-btn:hover {
+    background-color: #000000;
 }
 .contact-btn a{
     text-decoration: none;
@@ -235,6 +236,7 @@ body {
 .next-target-item {
     margin: 25px auto;
     padding: 30px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,14 +297,15 @@ body {
 
 /* footer styles */
 .footer {
-    margin: 0 auto;
-    width: 1000px;
+    margin: 20px auto;
+    width: 50;
     height: 100px;
     display: flex;
     padding: 20px 20px;
     justify-content: center;
     align-items: center;
     gap: 350px;
+    background-color: #0d132110;
    
 }
 .footer h2 {
